@@ -7,7 +7,7 @@ while(*(str)>='0' && *(str)<='9'){
    res= res*10+(*(str)-'0');
    str++;
 }
-endptr = &str;
+*endptr = str;
 return res;
 }
 
